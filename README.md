@@ -88,7 +88,7 @@ See the [Documentation](https://docs.gptr.dev/docs/gpt-researcher/getting-starte
     cd gpt-researcher
     ```
 
-3. Set up API keys by exporting them or storing them in a `.env` file.
+3. Set up API keys by exporting them or storing them in a `.env` file. You can get a Free Tavily API key from their website. 
 
     ```bash
     export OPENAI_API_KEY={Your OpenAI API Key here}
