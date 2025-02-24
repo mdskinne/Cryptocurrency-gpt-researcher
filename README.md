@@ -106,7 +106,7 @@ pip install gpt-researcher
 ...
 from gpt_researcher import GPTResearcher
 
-query = "why is Nvidia stock going up?"
+query = "New developments in the last 5 years for cryptocurrency regulations in Mexico"
 researcher = GPTResearcher(query=query, report_type="research_report")
 # Conduct research on the given query
 research_result = await researcher.conduct_research()
