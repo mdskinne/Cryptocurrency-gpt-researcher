@@ -80,10 +80,10 @@ See the [Documentation](https://docs.gptr.dev/docs/gpt-researcher/getting-starte
 
 If the .env file does not work, embed in Powershell.
 
-    ```bash
+    
     $env:OPENAI_API_KEY = "your-openai-api-key-here"
     $env:TAVILY_API_KEY = "Your Tavily API Key here"
-    ```
+    
    
 4. Install dependencies and start the server:
 
