@@ -1,7 +1,7 @@
 
 # 🔎 Cryptocurrency GPT Researcher
 
-Using GPT Researcher
+Utilizing GPT Reasearcher, the agent can provide highly intellectual research about topics, in this purpose, specifically cryptocurrency regulation. Using prompt engineering, output length, writing styles, and sources, the agent will perform high level research on the local host.
 
 **GPT Researcher is an open deep research agent designed for both web and local research on any given task.** 
 
@@ -67,17 +67,24 @@ See the [Documentation](https://docs.gptr.dev/docs/gpt-researcher/getting-starte
 2. Clone the project and navigate to the directory:
 
     ```bash
-    git clone https://github.com/assafelovic/gpt-researcher.git
+    git clone https://github.com/mdskinne/Cryptocurrency-gpt-researcher.git
     cd gpt-researcher
     ```
 
-3. Set up API keys by exporting them or storing them in a `.env` file. You can get a Free Tavily API key from their website. 
+3. Set up API keys by storing them in a `.env` file. You can get a Free Tavily API key from their website. 
 
     ```bash
-    export OPENAI_API_KEY={Your OpenAI API Key here}
-    export TAVILY_API_KEY={Your Tavily API Key here}
+    OPENAI_API_KEY = "Your OpenAI API Key here"
+    TAVILY_API_KEY = "Your Tavily API Key here"
     ```
 
+If the .env file does not work, embed in Powershell.
+
+    ```bash
+    $env:OPENAI_API_KEY = "your-openai-api-key-here"
+    $env:TAVILY_API_KEY = "Your Tavily API Key here"
+    ```
+   
 4. Install dependencies and start the server:
 
     ```bash
