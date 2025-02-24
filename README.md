@@ -1,7 +1,7 @@
 
 # 🔎 Cryptocurrency GPT Researcher
 
-Utilizing GPT Reasearcher, the agent can provide highly intellectual research about topics, in this purpose, specifically cryptocurrency regulation. Using prompt engineering, output length, writing styles, and sources, the agent will perform high level research on the local host.
+Utilizing GPT Researcher, the agent can provide highly intellectual research about topics, in this purpose, specifically cryptocurrency regulation. Using prompt engineering, output length, writing styles, and sources, the agent will perform high level research on the local host.
 
 **GPT Researcher is an open deep research agent designed for both web and local research on any given task.** 
 
